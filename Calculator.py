@@ -1,7 +1,7 @@
 """ Calculator
 ----------------------------------------
 """
-def additio():
+def addition():
     print("Addition")
     n = float(input("Enter the number: "))
     t = 0 //Total number enter
@@ -10,7 +10,7 @@ def additio():
         ans = ans + n
         t+=1
         n = float(input("Enter another number (0 to calculate): "))
-    retrn [ans,t]
+    return [ans,t]
 def subtraction ():
     print("Subtraction");
     n = float(input("Enter the number: "))
@@ -39,7 +39,7 @@ def average():
     ans = a / t
     return [ans,t]
 // main...
-while Tru:
+while True:
     list = []
     print(" My first python program!")
     print(" Simple Calculator in python by Malik Umer Farooq")
